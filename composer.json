@@ -1,0 +1,23 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload" :
+  {
+     "psr-4" :
+     {
+       "" : "src/"
+     }
+  },
+  "require" :
+  {
+      "php" : ">=5.6.0"
+  },
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ]
+}
